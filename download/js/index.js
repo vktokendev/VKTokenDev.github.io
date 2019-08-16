@@ -10,7 +10,7 @@ window.onload = function () {
         var isForeign = getQueryResult("isForeign");
         var location = window.location.toString();
         var isOKEx = location.indexOf('/okex') !== -1;
-        var isOKCoin = location.indexOf('/ttmc') !== -1;
+        var isOKCoin = location.indexOf('/vktoken') !== -1;
         
         if (isForeign == true && (isOKEx == true || isOKCoin == true)) {
             window.location = 'ios-store.html' + query
