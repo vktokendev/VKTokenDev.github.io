@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "83AYZ4GGP2.io.vankia.ios.VKToken",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
